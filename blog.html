@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog · Roy</title>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css?v=5ba6da6b">
+</head>
+<!-- 生成文件，别手改：interview/blog/scripts/build_site_blog.py -->
+<body data-active="blog">
+
+<div id="site-header"></div>
+
+<main>
+
+<section class="page-hero">
+  <div class="page">
+    <h1>Blog</h1>
+    <p class="lede">Notes and slides on RL infrastructure, algorithms and game AI.</p>
+  </div>
+</section>
+
+<section class="journal">
+  <div class="page">
+    <div class="blog-tabs" role="group" aria-label="Category">
+      <button type="button" data-f="all">All</button>
+      <button type="button" data-f="infra">Infra</button>
+      <button type="button" data-f="algorithm">Algorithm</button>
+      <button type="button" data-f="game-ai">Game AI</button>
+      <button type="button" data-f="projects">Projects</button>
+    </div>
+    <div class="blog-subs" data-for="infra" role="group" aria-label="Infra topics" hidden>
+      <button type="button" data-f="infra">All</button>
+      <button type="button" data-f="infra/distributed-rl">Distributed RL</button>
+      <button type="button" data-f="infra/rl-framework">RL Framework</button>
+      <button type="button" data-f="infra/train-engine">Train Engine</button>
+    </div>
+    <div class="blog-subs" data-for="algorithm" role="group" aria-label="Algorithm topics" hidden>
+      <button type="button" data-f="algorithm">All</button>
+      <button type="button" data-f="algorithm/agentic-rl">Agentic RL</button>
+      <button type="button" data-f="algorithm/rlvr-post-train">RLVR &amp; Post-Train</button>
+      <button type="button" data-f="algorithm/imitation-learning">Imitation Learning</button>
+      <button type="button" data-f="algorithm/tradition-rl">Tradition RL</button>
+    </div>
+    <div class="post-list blog-list">
+
+      <article class="post-row" data-f="infra/distributed-rl">
+        <div class="post-meta"><span>May 2026</span><button class="tag" type="button" data-f="infra/distributed-rl">Distributed RL</button></div>
+        <h3 class="post-title"><a href="https://docs.corp.kuaishou.com/d/home/fcACDZSSOWvPZjIqSLQSz4P0t" target="_blank" rel="noopener">Distributed RL Infrastructure for Agentic RL</a></h3>
+        <p class="post-desc">From OpenAI Five&#x27;s actor-learner system to today&#x27;s open-source agentic RL stacks: training and rollout acceleration, train-infer scheduling, and the layers an agentic RL infra needs.</p>
+        <div class="post-links"><a href="https://docs.corp.kuaishou.com/d/home/fcACDZSSOWvPZjIqSLQSz4P0t" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/agentic-rl">
+        <div class="post-meta"><span>Mar 2026</span><button class="tag" type="button" data-f="algorithm/agentic-rl">Agentic RL</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/Sn9PdzP9uoDERxx9p7IcCO5Vnie" target="_blank" rel="noopener">A Conclusion on Agentic RL in 2025</a></h3>
+        <p class="post-desc">Looking back at agentic RL in 2025: why infra matters more than algorithms right now, what makes training slow and unstable, and what carried over from game AI.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/Sn9PdzP9uoDERxx9p7IcCO5Vnie" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/agentic-rl">
+        <div class="post-meta"><span>Mar 2026</span><button class="tag" type="button" data-f="algorithm/agentic-rl">Agentic RL</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/KvLOdgiIqo5UDkxlGZKc0bMan2v" target="_blank" rel="noopener">A Survey on Agentic RL for Search and Tool Use</a></h3>
+        <p class="post-desc">Tool-integrated RL from ToRL and ReTool to AutoTIR and Kimi-Researcher: how each designs rewards and multi-turn rollouts, and what it found.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/KvLOdgiIqo5UDkxlGZKc0bMan2v" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/agentic-rl">
+        <div class="post-meta"><span>Mar 2026</span><button class="tag" type="button" data-f="algorithm/agentic-rl">Agentic RL</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/Ds23dCeM0oqLKNxSoy0cGDbtnug" target="_blank" rel="noopener">Making Agentic RL Faster</a></h3>
+        <p class="post-desc">Making agentic RL faster: long-tail rollouts, quantization, KV cache, DP-aware routing, speculative decoding, dynamic batching, fully async training and partial rollout.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/Ds23dCeM0oqLKNxSoy0cGDbtnug" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/agentic-rl">
+        <div class="post-meta"><span>Mar 2026</span><button class="tag" type="button" data-f="algorithm/agentic-rl">Agentic RL</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/QgzAd0SVuou9bfxWCPQcIwDhnoh" target="_blank" rel="noopener">Making Agentic RL Stable</a></h3>
+        <p class="post-desc">Keeping agentic RL stable: train-infer mismatch, chunk-level credit assignment, environment instance filtering, and the metrics worth watching.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/QgzAd0SVuou9bfxWCPQcIwDhnoh" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/rlvr-post-train">
+        <div class="post-meta"><span>Mar 2026</span><button class="tag" type="button" data-f="algorithm/rlvr-post-train">RLVR &amp; Post-Train</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/QbgkdojHuoY631xjdaLcDP8knFw" target="_blank" rel="noopener">On-Policy Distillation as Reinforcement Learning</a></h3>
+        <p class="post-desc">On-policy distillation is RL with the teacher-student reverse KL as the reward; how it compares with SFT, implemented on verl.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/QbgkdojHuoY631xjdaLcDP8knFw" target="_blank" rel="noopener">Read</a><a href="https://thinkingmachines.ai/blog/on-policy-distillation/" target="_blank" rel="noopener">Original</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/rlvr-post-train">
+        <div class="post-meta"><span>Mar 2026</span><button class="tag" type="button" data-f="algorithm/rlvr-post-train">RLVR &amp; Post-Train</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/CwHzdnieQo6Gzoxni0Rc3Epkn6d" target="_blank" rel="noopener">RL Tricks from Seed&#x27;s Open Recipe</a></h3>
+        <p class="post-desc">Data and rollout tricks from Seed&#x27;s open RL recipe: difficulty-aware data filtering, diversity-based rollout sampling, multi-stage training and rollout rescue.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/CwHzdnieQo6Gzoxni0Rc3Epkn6d" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="infra/rl-framework">
+        <div class="post-meta"><span>Feb 2026</span><button class="tag" type="button" data-f="infra/rl-framework">RL Framework</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/TMZ3dU0dvokHGZxM23Fc9BevnPf" target="_blank" rel="noopener">A Source-Code Walkthrough of verl</a></h3>
+        <p class="post-desc">A source-code walkthrough of verl&#x27;s PPO trainer, from run_ppo() and worker initialization to how data flows through rollout and training.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/TMZ3dU0dvokHGZxM23Fc9BevnPf" target="_blank" rel="noopener">Read</a><a href="https://github.com/volcengine/verl" target="_blank" rel="noopener">Code</a></div>
+      </article>
+      <article class="post-row" data-f="infra/train-engine">
+        <div class="post-meta"><span>Feb 2026</span><button class="tag" type="button" data-f="infra/train-engine">Train Engine</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/UtYSdIr22oGstUxECitcQmuOn8i" target="_blank" rel="noopener">DeepSpeed ZeRO and Ulysses, Explained</a></h3>
+        <p class="post-desc">ZeRO stages 1 to 3, ZeRO-R and offloading, read as memory-saving data parallelism, plus DeepSpeed Ulysses sequence parallelism.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/UtYSdIr22oGstUxECitcQmuOn8i" target="_blank" rel="noopener">Read</a><a href="https://arxiv.org/abs/1910.02054" target="_blank" rel="noopener">Paper</a><a href="https://github.com/deepspeedai/DeepSpeed" target="_blank" rel="noopener">Code</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/rlvr-post-train">
+        <div class="post-meta"><span>Feb 2026</span><button class="tag" type="button" data-f="algorithm/rlvr-post-train">RLVR &amp; Post-Train</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/MlZZd5ZpZo1NTrxGnDvcVOCNnOh" target="_blank" rel="noopener">GSPO: Policy Optimization at the Sequence Level</a></h3>
+        <p class="post-desc">Qwen&#x27;s GSPO moves importance ratios and clipping from tokens to whole sequences, which keeps RL on MoE models stable.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/MlZZd5ZpZo1NTrxGnDvcVOCNnOh" target="_blank" rel="noopener">Read</a><a href="https://arxiv.org/abs/2507.18071" target="_blank" rel="noopener">Paper</a></div>
+      </article>
+      <article class="post-row" data-f="infra/rl-framework">
+        <div class="post-meta"><span>Feb 2026</span><button class="tag" type="button" data-f="infra/rl-framework">RL Framework</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/FOk1dMs9MoQX8WxAuIscJh5dn0g" target="_blank" rel="noopener">Inside slime: Data Buffers and Async Agentic RL</a></h3>
+        <p class="post-desc">How slime&#x27;s data buffer and environment abstraction decouple rollout from training, and how it supports async RLVR and multi-turn agentic RL.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/FOk1dMs9MoQX8WxAuIscJh5dn0g" target="_blank" rel="noopener">Read</a><a href="https://github.com/THUDM/slime" target="_blank" rel="noopener">Code</a></div>
+      </article>
+      <article class="post-row" data-f="infra/train-engine">
+        <div class="post-meta"><span>Feb 2026</span><button class="tag" type="button" data-f="infra/train-engine">Train Engine</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/ZzAIdUewdoAyQWxLVZRcHUwOnvc" target="_blank" rel="noopener">Parallelism in Megatron-LM</a></h3>
+        <p class="post-desc">The Megatron-LM papers and code: tensor, pipeline, sequence, context and expert parallelism, MoE parallel folding, and the matching verl settings.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/ZzAIdUewdoAyQWxLVZRcHUwOnvc" target="_blank" rel="noopener">Read</a><a href="https://arxiv.org/abs/1909.08053" target="_blank" rel="noopener">Paper</a><a href="https://github.com/NVIDIA/Megatron-LM" target="_blank" rel="noopener">Code</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/rlvr-post-train">
+        <div class="post-meta"><span>Feb 2026</span><button class="tag" type="button" data-f="algorithm/rlvr-post-train">RLVR &amp; Post-Train</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/Rpdtdt7B8o1J4zxbAgTc5IFtnwd" target="_blank" rel="noopener">The Four Techniques Behind DAPO</a></h3>
+        <p class="post-desc">The four techniques behind DAPO: clip-higher, dynamic sampling, token-level policy-gradient loss and overlong reward shaping.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/Rpdtdt7B8o1J4zxbAgTc5IFtnwd" target="_blank" rel="noopener">Read</a><a href="https://arxiv.org/abs/2503.14476" target="_blank" rel="noopener">Paper</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/rlvr-post-train">
+        <div class="post-meta"><span>Feb 2026</span><button class="tag" type="button" data-f="algorithm/rlvr-post-train">RLVR &amp; Post-Train</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/FW34d05OBouqzExcBDwcQY3on9g" target="_blank" rel="noopener">The Training-Inference Mismatch in RL</a></h3>
+        <p class="post-desc">Why rollout and training engines disagree on token probabilities, worst on MoE models, and fixes such as truncated importance sampling, IcePop and rollout routing replay.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/FW34d05OBouqzExcBDwcQY3on9g" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/rlvr-post-train">
+        <div class="post-meta"><span>Feb 2026</span><button class="tag" type="button" data-f="algorithm/rlvr-post-train">RLVR &amp; Post-Train</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/WoZqdLLeQoQW9gx3rIfceQ5OnXd" target="_blank" rel="noopener">Understanding GRPO and Its Variants</a></h3>
+        <p class="post-desc">GRPO from DeepSeekMath: group-relative advantages, the KL estimator, and how Dr.GRPO, GSPO and DAPO change it.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/WoZqdLLeQoQW9gx3rIfceQ5OnXd" target="_blank" rel="noopener">Read</a><a href="https://arxiv.org/abs/2402.03300" target="_blank" rel="noopener">Paper</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/rlvr-post-train">
+        <div class="post-meta"><span>Jan 2026</span><button class="tag" type="button" data-f="algorithm/rlvr-post-train">RLVR &amp; Post-Train</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/Hg8Rdyj7FoEzZ7xEVM1cwIbEnjd" target="_blank" rel="noopener">A Reading Map for RL on LLMs</a></h3>
+        <p class="post-desc">A reading map for LLM RL: the unified policy-gradient view of SFT, RFT, DPO, PPO and GRPO, KL estimators, and the papers and tricks worth knowing.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/Hg8Rdyj7FoEzZ7xEVM1cwIbEnjd" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/rlvr-post-train">
+        <div class="post-meta"><span>Jan 2026</span><button class="tag" type="button" data-f="algorithm/rlvr-post-train">RLVR &amp; Post-Train</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/NL19dLyjXochYYxAdkUch4GBngf" target="_blank" rel="noopener">On-Policy vs Off-Policy Post-Training</a></h3>
+        <p class="post-desc">Where SFT, DPO, rejection sampling, RL and on-policy distillation sit between on-policy and off-policy, and what that means for post-training.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/NL19dLyjXochYYxAdkUch4GBngf" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/rlvr-post-train">
+        <div class="post-meta"><span>Jan 2026</span><button class="tag" type="button" data-f="algorithm/rlvr-post-train">RLVR &amp; Post-Train</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/DcXadrwcgo1xIixCZsocwLtOnAc" target="_blank" rel="noopener">Reward Systems for Post-Training</a></h3>
+        <p class="post-desc">Rule-based, discriminative and generative reward models, rubrics as rewards, pointwise vs pairwise training, and reward hacking.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/DcXadrwcgo1xIixCZsocwLtOnAc" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="projects/talk">
+        <div class="post-meta"><span>Jan 2026</span><button class="tag" type="button" data-f="projects/talk">Talk</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/C8CPdwXnyoalkwxebvKcsvU4npd" target="_blank" rel="noopener">Training an AI Search Agent with RL</a></h3>
+        <p class="post-desc">A multi-turn AI search agent trained with RL: the agent system, environment instance generation, curriculum learning, and tricks for stable and faster training.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/C8CPdwXnyoalkwxebvKcsvU4npd" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/rlvr-post-train">
+        <div class="post-meta"><span>Jan 2026</span><button class="tag" type="button" data-f="algorithm/rlvr-post-train">RLVR &amp; Post-Train</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/S9PMdBbprowfp9xrMVUcCy6ZnOe" target="_blank" rel="noopener">Why Policy Entropy Collapses in RL</a></h3>
+        <p class="post-desc">Policy entropy collapses early when training reasoning models with RL, and performance follows it on a fitted curve; the covariance analysis behind it and the Clip-Cov and KL-Cov fixes.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/S9PMdBbprowfp9xrMVUcCy6ZnOe" target="_blank" rel="noopener">Read</a><a href="https://arxiv.org/abs/2505.22617" target="_blank" rel="noopener">Paper</a></div>
+      </article>
+      <article class="post-row" data-f="projects/talk">
+        <div class="post-meta"><span>Aug 2025</span><button class="tag" type="button" data-f="projects/talk">Talk</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/Urtqdus3Dod7gbx4y6tcF6fbnJc" target="_blank" rel="noopener">Post-Training LLMs to Write Push Notifications</a></h3>
+        <p class="post-desc">Post-training Qwen3 to write push-notification copy: SFT vs DPO vs RL, a multi-objective reward model and a multi-stage RL pipeline.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/Urtqdus3Dod7gbx4y6tcF6fbnJc" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="projects/talk">
+        <div class="post-meta"><span>Sep 2023</span><button class="tag" type="button" data-f="projects/talk">Talk</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/RECvdO9MPo5tWVxQEy1c65N5nwg" target="_blank" rel="noopener">RLHF in 2023: From InstructGPT to DPO</a></h3>
+        <p class="post-desc">The 2023 talk version of the RLHF notes: InstructGPT&#x27;s three stages, DPO, Decision Transformer for RLHF and offline RLHF.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/RECvdO9MPo5tWVxQEy1c65N5nwg" target="_blank" rel="noopener">Read</a><a href="https://arxiv.org/abs/2203.02155" target="_blank" rel="noopener">Paper</a></div>
+      </article>
+      <article class="post-row" data-f="game-ai/game-ai">
+        <div class="post-meta"><span>Jul 2023</span><button class="tag" type="button" data-f="game-ai/game-ai">Game AI</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/VE1Jd40pVouvCBxalZNcwFbYnYc" target="_blank" rel="noopener">A Game AI for PvE Battles</a></h3>
+        <p class="post-desc">The model behind a PVE game AI: entity encoders after OpenAI Five and NetEase&#x27;s Neural MMO agent, LSTM for timing, and separate skill and move heads.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/VE1Jd40pVouvCBxalZNcwFbYnYc" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/imitation-learning">
+        <div class="post-meta"><span>Jun 2023</span><button class="tag" type="button" data-f="algorithm/imitation-learning">Imitation Learning</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/MiHjdJAhfok9a1x3Ai2cMWBxnQf" target="_blank" rel="noopener">Imitation Learning as Distribution Matching</a></h3>
+        <p class="post-desc">Behavior cloning, inverse RL and GAIL, unified as matching either the policy or the state-action distribution of the expert.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/MiHjdJAhfok9a1x3Ai2cMWBxnQf" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="algorithm/tradition-rl">
+        <div class="post-meta"><span>Mar 2023</span><button class="tag" type="button" data-f="algorithm/tradition-rl">Tradition RL</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/UMUydOdohoPzmPxvXG2cx1OGnHb" target="_blank" rel="noopener">Classic RL: From Policy Gradient to PPO</a></h3>
+        <p class="post-desc">Classic RL notes: policy-gradient derivations, Bellman equations, DDPG, TD3, SAC, and PPO with GAE and tuning tricks.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/UMUydOdohoPzmPxvXG2cx1OGnHb" target="_blank" rel="noopener">Read</a></div>
+      </article>
+      <article class="post-row" data-f="game-ai/game-ai">
+        <div class="post-meta"><span>Dec 2022</span><button class="tag" type="button" data-f="game-ai/game-ai">Game AI</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/TIqkdF7s4oCu1jxbw6RcEl1NnWg" target="_blank" rel="noopener">Reproducing MineCLIP: Video-Text Rewards for RL</a></h3>
+        <p class="post-desc">Reproducing MineCLIP on a small MineDojo subset: a video-text CLIP model trained on YouTube tutorials, then used as the reward for RL in Minecraft.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/TIqkdF7s4oCu1jxbw6RcEl1NnWg" target="_blank" rel="noopener">Read</a><a href="https://arxiv.org/abs/2206.08853" target="_blank" rel="noopener">Paper</a></div>
+      </article>
+      <article class="post-row" data-f="game-ai/game-ai">
+        <div class="post-meta"><span>Oct 2022</span><button class="tag" type="button" data-f="game-ai/game-ai">Game AI</button></div>
+        <h3 class="post-title"><a href="https://my.feishu.cn/docx/JMc4dtWVhoOJdDx1ydYcvj2jn6f" target="_blank" rel="noopener">Our Neural MMO Solution at NeurIPS 2022</a></h3>
+        <p class="post-desc">Our NeurIPS 2022 Neural MMO solution (PVE 4th, PVP 2nd): observation and action design, network structure, and a staged curriculum from dense to sparse rewards.</p>
+        <div class="post-links"><a href="https://my.feishu.cn/docx/JMc4dtWVhoOJdDx1ydYcvj2jn6f" target="_blank" rel="noopener">Read</a></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="assets/js/site.js?v=3c889df4"></script>
+<script src="assets/js/blog.js?v=d659dcd5"></script>
+</body>
+</html>
+

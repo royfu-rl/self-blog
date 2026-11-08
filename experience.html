@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experience · Roy</title>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-active="experience">
+
+<div id="site-header"></div>
+
+<main>
+
+<!-- The canvas draws one swarm; experience.js re-forms it per chapter -->
+<section class="exp" id="experience" aria-label="Experience">
+  <i class="exp-anchor" id="t1"></i><i class="exp-anchor" id="t2"></i><i class="exp-anchor" id="t3"></i><i class="exp-anchor" id="t4"></i><i class="exp-anchor" id="t5"></i>
+  <div class="stage">
+    <canvas aria-hidden="true"></canvas>
+
+    <article class="chapter opening" style="--c:#dfe6f2">
+      <p class="eyebrow">Experience</p>
+      <h1>Every job,<br>a harder<br>environment.</h1>
+      <p class="lede">Five environments, one swarm. Keep scrolling to step through them, and open any one to read its blog.</p>
+    </article>
+
+    <article class="chapter" style="--c:#ff7a52">
+      <p class="eyebrow">t = 0 · Tencent IEG, TiMi · 2023</p>
+      <h2>Game AI</h2>
+      <p class="lede">Game AI on a large-scale distributed RL system, with agents trained through self-play in a league.</p>
+      <dl>
+        <div><dt>algorithm</dt><dd>Online PPO</dd></div>
+        <div><dt>opponents</dt><dd>League self-play</dd></div>
+        <div><dt>network</dt><dd>AlphaStar-style</dd></div>
+      </dl>
+      <a class="cta" href="https://my.feishu.cn/docx/VE1Jd40pVouvCBxalZNcwFbYnYc" target="_blank" rel="noopener">Read the blog <span>→</span></a>
+      <p class="fig">Two teams push three lanes. The front line moves as they trade wins.</p>
+    </article>
+
+    <article class="chapter" style="--c:#ffc83d">
+      <p class="eyebrow">t = 1 · Meituan · 2024 – 2026</p>
+      <h2>Search Agent</h2>
+      <p class="lede">Agentic RL for AI search: better search and recommendation across multi-turn user sessions, with reward assigned per chunk.</p>
+      <dl>
+        <div><dt>model</dt><dd>Qwen3-235B</dd></div>
+        <div><dt>reward</dt><dd>Chunk-level credit</dd></div>
+        <div><dt>infra</dt><dd>MoE train-serve consistency</dd></div>
+      </dl>
+      <a class="cta" href="https://my.feishu.cn/docx/C8CPdwXnyoalkwxebvKcsvU4npd" target="_blank" rel="noopener">Read the blog <span>→</span></a>
+      <p class="fig">A query branches over turns. Gold marks the chunks that earned reward.</p>
+    </article>
+
+    <article class="chapter" style="--c:#3de08f">
+      <p class="eyebrow">t = 2 · Kling AI · 2026</p>
+      <h2>KAT-Coder V2.5</h2>
+      <p class="lede">Agentic RL for real software engineering. I led environment synthesis, training infra, algorithms and evaluation.</p>
+      <dl>
+        <div><dt>environments</dt><dd>22k verified, 31 languages</dd></div>
+        <div><dt>OOD gain</dt><dd>+4.8pp Flash, +3.1pp Pro</dd></div>
+        <div><dt>downloads</dt><dd>3M+</dd></div>
+      </dl>
+      <a class="cta" href="https://royfu-rl.github.io/kat-coder-v25/index.html" target="_blank" rel="noopener">Read the blog <span>→</span></a>
+      <p class="fig">Each dot is a sandbox. Green passes, red fails.</p>
+    </article>
+
+    <article class="chapter" style="--c:#ff5f7e">
+      <p class="eyebrow">t = 3 · Kling-VLM · 2026</p>
+      <h2>Kling-Critic <small>Omni Understanding</small></h2>
+      <p class="lede">Automated quality evaluation for Kling's video models. The critic reports which frame, where, and why.</p>
+      <dl>
+        <div><dt>pipeline</dt><dd>Recall, then verify</dd></div>
+        <div><dt>output</dt><dd>Frame range, bbox, severity</dd></div>
+        <div><dt>next</dt><dd>Outcome and process reward</dd></div>
+      </dl>
+      <a class="cta" href="https://royfu-rl.github.io/kling-critic/index.html" target="_blank" rel="noopener">Read the blog <span>→</span></a>
+      <p class="fig">The critic scans a clip and flags the frame where the subject breaks.</p>
+    </article>
+
+    <article class="chapter" style="--c:#b9f53d">
+      <p class="eyebrow">t = 4 · Kling-VLM · 2026</p>
+      <h2>Kling-Keye Visual Coder</h2>
+      <p class="lede">Models that write code to make web pages, 3D scenes and videos. Looks have no pass/fail test, so verification reads what actually renders.</p>
+      <dl>
+        <div><dt>tracks</dt><dd>Web, 3D, Video</dd></div>
+        <div><dt>judged on</dt><dd>Render, interaction, runtime state</dd></div>
+      </dl>
+      <a class="cta" href="https://royfu-rl.github.io/visual-coding/output/total.html" target="_blank" rel="noopener">Read the blog <span>→</span></a>
+      <p class="fig">Code on the left becomes the render on the right.</p>
+    </article>
+
+    <nav class="rail" aria-label="Experience chapters">
+      <a href="#t1"><b>0</b><span>Game AI</span></a>
+      <a href="#t2"><b>1</b><span>Search Agent</span></a>
+      <a href="#t3"><b>2</b><span>KAT-Coder</span></a>
+      <a href="#t4"><b>3</b><span>Kling-Critic</span></a>
+      <a href="#t5"><b>4</b><span>Visual Coder</span></a>
+    </nav>
+  </div>
+</section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="assets/js/site.js"></script>
+<script src="assets/js/swarm.js"></script>
+<script src="assets/js/experience.js"></script>
+</body>
+</html>
+
